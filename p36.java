@@ -1,0 +1,12 @@
+class p36
+{
+	public static void main(String[] args) 
+	{
+		int height=180 ;
+		float weight = 70 ; 
+		if( height >=175 && weight >=70)
+		{
+			System.out.println ("Eligible for NDA") ;
+		}
+	}
+}

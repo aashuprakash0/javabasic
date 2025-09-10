@@ -1,0 +1,27 @@
+class p56
+{
+	public static void main(String[] args) 
+	{
+		String  selector ="leela";
+		switch (selector)
+		{
+		case "disha" :{
+		System.out.println("disha"); 
+		break;
+		}
+		case "leela" :{
+		System.out.println("leela"); 
+		break;
+		}
+		case "mahi" :{
+		System.out.println("mahi`"); 
+		break;
+		}
+		default:{
+		System.out.println("default"); 
+		break; 
+		}
+		}
+		
+		}
+	}

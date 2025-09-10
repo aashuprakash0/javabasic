@@ -1,0 +1,23 @@
+class p71 
+{
+	public static void main(String[] args) 
+	{
+		int num=4664;
+		int tem=num;
+		int reverse=0;
+		int lastdigit=0;
+		while(temp!=0)
+		{
+			lastdigit=temp%10;
+			reverse=reverse*10+lastdigit;
+			temp=temp/10;
+		}
+		if(num==reverse)
+		{
+			System.out.println(num+"is a palindrome");
+		}
+		else
+			System.out.println(num+" is a palindrome");
+	
+	}
+}
