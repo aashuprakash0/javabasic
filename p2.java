@@ -1,21 +1,13 @@
-package inheritance_program;
+package Abstraction_programs;
 
-public class p2  extends p1{
-	int b = 200 ; 
-	public void test2()
-	{
-		System.out.println("From test of p2");
+public class p2 extends p11 implements I4 {
+	public void test2() {
+		System.out.println("From test2 of p2");
 	}
-	public static void main(String[] args) {
-		p1 ob1 = new p1() ; 
-		System.out.println(ob1.a);
-		ob1.test1(); 
-		System.out.println("---------------------");
-		p2 ob2 = new p2(); 
-		System.out.println(ob2.a);
-		ob2.test1();
-		System.out.println(ob2.b);
-		ob2.test2();
+    public static void main(String[] args) {
+		I4 ob = new p2();
+		ob.test1();
+		ob.test2();
 	}
-
+	
 }
