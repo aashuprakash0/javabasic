@@ -1,14 +1,14 @@
-package programs;
-//Write a program to print odd number from 1 to 100 without using any loop
+package Object_Programs;
+
 public class p2 {
-static int num=1; 
-public static void main(String[] args) {
-	if (num<=100) {
-		if(num%2 !=0) {
-		System.out.println(num);
-		}
-		num++; 
-		main(null);
+	int a =100 ; 
+	int b=200; 
+	public static void main(String[] args) {
+		p2 ob1 = new p2(); 
+		p2 ob2 = new p2(); 
+		p2 ob3=ob1; 
+		System.out.println(ob1.equals(ob2));
+		System.out.println(ob1.equals(ob3));
 	}
-}
+
 }
