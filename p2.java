@@ -1,14 +1,22 @@
-package Object_Programs;
-
+package pattern;
+/* Write a program to print
+ ABCDE
+ ABCDE
+ ABCDE
+ ABCDE
+ ABCDE
+ */
 public class p2 {
-	int a =100 ; 
-	int b=200; 
-	public static void main(String[] args) {
-		p2 ob1 = new p2(); 
-		p2 ob2 = new p2(); 
-		p2 ob3=ob1; 
-		System.out.println(ob1.equals(ob2));
-		System.out.println(ob1.equals(ob3));
+public static void main(String[] args) {
+	int row=5;
+	int coloumn=5; 
+	for (int i = 0; i < row; i++) {
+		char ch='A';
+		for (int j = 0; j < coloumn; j++) {
+		System.out.print(ch++); /*ch++ is an post-increment operator*/
+		}
+		System.out.println();
 	}
-
+	
+}
 }

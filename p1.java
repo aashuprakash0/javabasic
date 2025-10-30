@@ -1,13 +1,23 @@
-package programs;
-//Write a program to print 1 to 100 without using loop.
+package pattern;
+/* WAP  to print this pattern.
+ 	*****
+ 	*****
+ 	*****
+ 	*****
+ 	*****
+}*/
 public class p1 {
-	static int num = 1; 
+	
 	public static void main(String[] args) {
-		if(num==100) {
-			System.out.println(num);
-			num++; 
-			main(null);
+		int row= 5; 
+		int coloumn=5;
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < coloumn; j++) {
+			System.out.print("*");	
+			}
+			System.out.println();
 		}
+		
 	}
-
 }
+

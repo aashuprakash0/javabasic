@@ -1,19 +1,19 @@
 package pattern;
-/* WAP to print
-EDCBA
-EDCBA
-EDCBA
-EDCBA
-EDCBA
- */
-public class p3 {
+/*WAP TO PRINT
+54321
+54321
+54321
+54321
+54321
+*/
+public class p5 {
 	public static void main(String[] args) {
 		int row=5;
 		int coloumn=5;
 		for (int i = 0; i < row; i++) {
-			char ch='E';
+			int num=5;
 			for (int j = 0; j < coloumn; j++) {
-				System.out.print(ch--);
+				System.out.print(num--);	
 			}
 			System.out.println();
 		}

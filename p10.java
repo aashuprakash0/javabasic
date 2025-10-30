@@ -1,27 +1,24 @@
 package pattern;
 /*WAP TO PRINT
-12345
-67891
-23456
-78912
-34567
+ABCDE
+FGHIJ
+KLMNO
+PQRST
+UVWXY
 */
 
-public class p11 {
+public class p10 {
 	public static void main(String[] args) {
 		int row=5;
 		int coloumn=5; 
-		int num= 1;
+		char ch= 'A';
 	for (int i = 0; i < row; i++) {
 		for (int j = 0; j < coloumn; j++) {
-			System.out.print(num++);
-			if(num==10) {
-				num=1;	
-		}}
+			System.out.print(ch++);
+		}
 		System.out.println(); 
-		
-	}
+		;
 	}
 	}
 
-
+}
