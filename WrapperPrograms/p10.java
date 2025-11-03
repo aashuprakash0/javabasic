@@ -1,0 +1,17 @@
+package WrapperPrograms;
+
+public class p10 {
+public static void main(String[] args) {
+	String s1 ="500"; 
+	String s2 ="25.5"; 
+	String s3 ="true";
+	
+	int num1 = Integer.parseInt(s1); 
+	float num2 = Float.parseFloat(s2);
+	boolean num3=Boolean.parseBoolean(s3);
+	
+	System.out.println(num1);
+	System.out.println(num2);
+	System.out.println(num3);
+}
+}
